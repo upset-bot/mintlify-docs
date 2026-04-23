@@ -1,34 +1,23 @@
-> **Customize this file**: Tailor this template to your project by noting specific contribution types you're looking for, adding a Code of Conduct, or adjusting the writing guidelines to match your style.
+# Requirements for Contributing
 
-# Contribute to the documentation
+## Changes
 
-Thank you for your interest in contributing to our documentation! This guide will help you get started.
+### Desired Modifications
 
-## How to contribute
+- Corrections of erroneous statements or inaccuracies within the documentation.
+- Rephrasing or elaboration of sections to clarify ambiguous language or complex explanations.
+- Incorporation of content to address gaps or missing elements in the existing documentation.
+- Rectification of spelling and grammatical errors present in the documentation.
 
-### Option 1: Edit directly on GitHub
+### Undesired Modifications
 
-1. Navigate to the page you want to edit
-2. Click the "Edit this file" button (the pencil icon)
-3. Make your changes and submit a pull request
+- Adjustments to whitespace or formatting.
+- Subjective alterations to wording.
+- Changes to the overall structure and format of the documentation.
+- Additions that duplicate or unnecessarily reformat existing documentation.
 
-### Option 2: Local development
+## Images
 
-1. Fork and clone this repository
-2. Install the Mintlify CLI: `npm i -g mint`
-3. Create a branch for your changes
-4. Make changes
-5. Navigate to the docs directory and run `mint dev`
-6. Preview your changes at `http://localhost:3000`
-7. Commit your changes and submit a pull request
+We require dark themes for screenshots and would prefer if screenshots are taken on any OS X device.
 
-For more details on local development, see our [development guide](development.mdx).
-
-## Writing guidelines
-
-- **Use active voice**: "Run the command" not "The command should be run"
-- **Address the reader directly**: Use "you" instead of "the user"
-- **Keep sentences concise**: Aim for one idea per sentence
-- **Lead with the goal**: Start instructions with what the user wants to accomplish
-- **Use consistent terminology**: Don't alternate between synonyms for the same concept
-- **Include examples**: Show, don't just tell
+![Example](https://upset.bot/img/invoke.png)
